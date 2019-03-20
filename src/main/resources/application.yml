@@ -4,3 +4,9 @@ spring:
       server:
         git:
           uri: https://github.com/kimsangkyun/spring-cloud-config.git
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ksk1004zz
+    password: rlatkd11
