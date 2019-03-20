@@ -10,3 +10,9 @@ spring:
     port: 5672
     username: ksk1004zz
     password: rlatkd11
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, bus-refresh, bus-env
