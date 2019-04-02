@@ -1,6 +1,7 @@
 spring:
   application:
     name: config-server
+
 who:
   am:
     kimsangkyun: dev
